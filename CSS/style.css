@@ -8,6 +8,15 @@
 }
 
 .wishlist, .cart { width: 3.75%; }
+
 /* All image elements in div menu have been assigned
 with margin-left property at a value of 15px.*/
 .menu img { margin-left: 15px; }
+
+/* Social media links and payment options
+should be of the same size. */
+.facebook, .twitter, .instagram
+{
+  width: 3%;
+  margin-left: 15px;
+}
