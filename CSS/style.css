@@ -20,3 +20,7 @@ should be of the same size. */
   width: 3%;
   margin-left: 15px;
 }
+
+.bov { width: 3%; }
+.visa { width: 5%; }
+.mastercard { width: 5%; }
