@@ -1,4 +1,13 @@
-h1
+/* The flag might grow if state changes to hover/active. */
+.malta_flag,
+.english_flag,
+.user
 {
-  color: red;
+  /* Changing the size of the flags. */
+  width: 5%;
 }
+
+.wishlist, .cart { width: 3.75%; }
+/* All image elements in div menu have been assigned
+with margin-left property at a value of 15px.*/
+.menu img { margin-left: 15px; }
