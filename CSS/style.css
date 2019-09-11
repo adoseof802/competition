@@ -1,3 +1,6 @@
+/* To stop elements from staying next to each other. */
+.clear { clear: both; }
+
 /* The flag might grow if state changes to hover/active. */
 .malta_flag,
 .english_flag,
