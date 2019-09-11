@@ -23,4 +23,5 @@ should be of the same size. */
 
 .bov { width: 3%; }
 .visa { width: 5%; }
-.mastercard { width: 5%; }
+.mastercard { width: 6%; }
+.paypal { width: 7%; }
