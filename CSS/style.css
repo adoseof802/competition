@@ -1,26 +1,33 @@
+body { background: #000000; }
+
 /* To stop elements from staying next to each other. */
 .clear { clear: both; }
 
 /* The flag might grow if state changes to hover/active. */
 .malta_flag,
-.english_flag,
+.english_flag
+{
+  width: 7.5%;
+  cursor: pointer;
+}
+
 .user
 {
   /* Changing the size of the flags. */
-  width: 5%;
+  width: 6%;
   /* The standard pointing cursor. */
   cursor: pointer;
 }
 
 .wishlist, .cart
 {
-  width: 3.75%;
+  width: 6%;
   cursor: pointer;
 }
 
 /* All image elements in div menu have been assigned
 with margin-left property at a value of 15px.*/
-.menu img { margin-left: 15px; }
+.menu img { padding: 20px; background: black; }
 
 /* Social media links and payment options
 should be of the same size. */
