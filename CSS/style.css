@@ -8,9 +8,15 @@
 {
   /* Changing the size of the flags. */
   width: 5%;
+  /* The standard pointing cursor. */
+  cursor: pointer;
 }
 
-.wishlist, .cart { width: 3.75%; }
+.wishlist, .cart
+{
+  width: 3.75%;
+  cursor: pointer;
+}
 
 /* All image elements in div menu have been assigned
 with margin-left property at a value of 15px.*/
