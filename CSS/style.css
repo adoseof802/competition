@@ -37,6 +37,18 @@ should be of the same size. */
   margin-left: 15px;
 }
 
+.col-sm h5
+{
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+/* Hide the bullets. */
+.col-sm ul li { list-style-type: none; }
+
+/* Leave vertical spacing between each link in the columns. */
+.col-sm ul li a:link { vertical-align: 5px; }
+
 .bov { width: 3%; }
 .visa { width: 5%; }
 .mastercard { width: 6%; }
