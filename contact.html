@@ -154,23 +154,56 @@
         </div>
       </div>
     </div>
-    <form>
-    <div class="form-group">
-        <label for="formGroupExampleInput">Example label</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-      </div>
-      <div class="form-group">
-        <label for="formGroupExampleInput2">Another label</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-      </div>
-    </form>
+    <div style="background: #ffffff; padding: 20px;">
+      <h5>Leave us a message!</h5><br>
+      <form action="mailto:mandy@volo.com.mt" method="post" enctype="text/plain">
+          <div class="form-group">
+              <label for="formGroupExampleInput" style="width: 130px; ">Forename</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" name="Forename" placeholder="Enter your first name">
+            </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Surname</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" name="Surname" placeholder="Enter your last name">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput3">Email</label>
+            <input type="email" class="form-control" id="formGroupExampleInput3" name="Email" placeholder="Enter your email address">
+          </div>
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <br>
+                  <input class="form-check-input" type="radio" name="Gender" id="gridRadios1" value="Female" checked>
+                  <label class="form-check-label">Female</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="Gender" id="gridRadios2" value="Male">
+                  <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="Gender" id="gridRadios3" value="Others">
+                  <label class="form-check-label">Others</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group">
+            <label>Comments</label><br>
+            <textarea name="name" placeholder="Enter your comments!" name="Comment"></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
     <div class="clear"></div>
       <div style="padding: 20px">
           <div class="row">
             <div class="col-sm">
               <h5>How can we help?</h5>
               <ul>
-                  <li><a href="#">Customer Care</a></li>
+                  <li><a href="contact.html">Customer Care</a></li>
                   <li><a href="#">Track My Order</a></li>
                   <li><a href="#">Returns & Refunds</a></li>
                   <li><a href="#">Size Guide</a></li>
@@ -190,7 +223,7 @@
             <div class="col-sm">
                 <h5>About Us</h5>
                 <ul>
-                    <li><a href="#">About Shopjet</a></li>
+                    <li><a href="about.html">About Shopjet</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Sitemap</a></li>
                 </ul>

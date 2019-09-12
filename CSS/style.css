@@ -70,11 +70,26 @@ should be of the same size. */
     margin-bottom: 20px;
 }
 
-.customer_care #options img
-{
-    margin-bottom: 10px;
-}
+.customer_care #options img { margin-bottom: 10px; }
 
 .about_shopjet img { margin-bottom: 15px; }
 .about_shopjet .row { margin-bottom: 25px; }
 .about_shopjet .male { width: 40%; }
+
+.form-group input, textarea { width: 30%; }
+.form-group textarea { height: 125px; resize: both; }
+
+@media screen and (max-width: 768px)
+{
+    .banner
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px)
+{
+    .banner
+    {
+        width: 100%;
+    }
+}
