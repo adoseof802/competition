@@ -79,13 +79,6 @@ should be of the same size. */
 .form-group input, textarea { width: 30%; }
 .form-group textarea { height: 125px; resize: both; }
 
-@media screen and (max-width: 768px)
-{
-    .banner
-    {
-        width: 100%;
-    }
-}
 @media screen and (min-width: 0px)
 {
     .banner
