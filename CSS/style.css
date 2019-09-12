@@ -7,21 +7,21 @@ body { background: #000000; }
 .malta_flag,
 .english_flag
 {
-  width: 7.5%;
+  width: 6%;
   cursor: pointer;
 }
 
 .user
 {
   /* Changing the size of the flags. */
-  width: 6%;
+  width: 4.9%;
   /* The standard pointing cursor. */
   cursor: pointer;
 }
 
 .wishlist, .cart
 {
-  width: 6%;
+  width: 4.9%;
   cursor: pointer;
 }
 
@@ -53,3 +53,28 @@ should be of the same size. */
 .visa { width: 5%; }
 .mastercard { width: 6%; }
 .paypal { width: 7%; }
+
+.customer_care { padding: 15px; }
+.customer_care #options
+{
+    background: #ffffff;
+    color: #00000;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+}
+
+.customer_care #options h4
+{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.customer_care #options img
+{
+    margin-bottom: 10px;
+}
+
+.about_shopjet img { margin-bottom: 15px; }
+.about_shopjet .row { margin-bottom: 25px; }
+.about_shopjet .male { width: 40%; }
